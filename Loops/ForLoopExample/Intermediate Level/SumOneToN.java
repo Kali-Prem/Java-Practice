@@ -17,3 +17,14 @@ public class SumOneToN {
         System.out.println("The sum of numbers from 1 to " + N + " is: " + sum);
     }
 }
+
+
+//Another way to do the same problem]
+
+// public class SumOneToN {
+//    public static void main(String[] args) {
+//       int n = 100;
+//       int sum = (n*(n+1)) / 2;
+//     System.out.print(sum);
+//    }
+// }
