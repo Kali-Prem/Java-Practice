@@ -7,7 +7,7 @@
 /*
 public class SumOfOddNumbers {
     public static void main(String[] args) {
-        int N = 100; // You can change this value to compute sum up to a different number
+        int N = 100; 
         int sum = 0;
 
         // Using a for loop to calculate the sum of odd numbers from 1 to N

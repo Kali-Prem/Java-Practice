@@ -6,7 +6,7 @@
 
 public class PrimeCheck {
     public static void main(String[] args) {
-         int number = 29; // You can change this number to check for other numbers
+         int number = 29;
          int fact = 0;
             for(int i=1;i<=number;i=i+1){
                 if(number%i==0){

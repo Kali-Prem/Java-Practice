@@ -6,7 +6,7 @@
 
 public class SumOfEvenNumbers {
     public static void main(String[] args) {
-        int N = 30; // You can change this value to compute sum up to a different number
+        int N = 30; 
         int sum = 0;
 
         // Using a for loop to calculate the sum of even numbers from 1 to N

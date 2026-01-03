@@ -6,7 +6,7 @@
 
 public class Factorial {
     public static void main(String[] args) {
-        int number = 5; // You can change this number to compute factorial of any other number
+        int number = 5; 
         int factorial = 1;
 
         // Using a for loop to calculate the factorial

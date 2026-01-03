@@ -6,7 +6,7 @@
 
 public class ReverseNumber {
     public static void main(String[] args) {
-        int number = 12345; // You can change this number to reverse any other number
+        int number = 12345; 
         int reversedNumber = 0;
         int digit;
 

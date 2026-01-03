@@ -6,7 +6,7 @@
 
 public class CountNumbers {
     public static void main(String[] args) {
-        int N = 10; // You can change this value to count up to a different number
+        int N = 10; 
         int count = 0;
 
         // Using a for loop to count numbers from 1 to N

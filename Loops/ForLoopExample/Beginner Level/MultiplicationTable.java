@@ -6,7 +6,7 @@
 
 public class MultiplicationTable {
     public static void main(String[] args) {
-        int number = 5; // You can change this number to print the table of any other number
+        int number = 5; 
 
         // Using a for loop to print the multiplication table
         for (int i = 1; i <= 10; i = i + 1) {

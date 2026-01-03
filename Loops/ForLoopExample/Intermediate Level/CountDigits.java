@@ -24,7 +24,7 @@ public class CountDigits {
 
 public class CountDigits {
     public static void main(String[] args) {
-        int number = 123456; // You can change this number to test with different inputs
+        int number = 123456; 
         int count = 0;
 
         for(int i = number; i > 0; i = i / 10) {
