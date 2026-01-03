@@ -21,7 +21,7 @@ public class PrimeNumbersOneToHundred {
 }
         
 
-
+// Another way to solve this 
 
 
         
