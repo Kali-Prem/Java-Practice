@@ -13,6 +13,36 @@
  153 = 1³ + 5³ + 3³ = 153
 */
 
+import java.util.*;
+
+public class ArmstrongNumber {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int n = sc.nextInt();
+      int dummy = n;
+      int copy = n;
+      int digit = 0;
+      int sum = 0;
+      
+      while(n > 0){
+        digit = digit + 1;
+        n = n / 10;
+      }
+      while(dummy > 0){
+        int rem = dummy % 10;
+        sum = sum + (int)Math.pow(rem, digit);
+        dummy = dummy / 10;
+        
+      }
+      if(copy == sum){
+        System.out.print("Armstrong no");
+      }
+      else{
+        System.out.print("Not");
+      }
+  }
+}
+
 
 
 
