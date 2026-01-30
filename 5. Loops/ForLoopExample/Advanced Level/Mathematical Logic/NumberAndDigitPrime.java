@@ -28,11 +28,13 @@ class NumberAndDigitPrime {
             }
             if (check == true) {
                 System.out.print(true);
-            } else {
+            } 
+            else {
                 System.out.print(false);
             }
 
-        } else {
+        } 
+        else {
             System.out.print(false);
         }
     }
