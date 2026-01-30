@@ -3,13 +3,13 @@ public class ATM {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int choice;
-        int Balance = 500;
+        int Balance = 500000;
         int amount;
         int pin = 1234;
         int auth;
 
         do { 
-            System.out.println("=======ATM Menu=======");
+            System.out.println("============ATM Menu============");
             System.out.println("1. Balance inquiry");
             System.out.println("2. Deposit");
             System.out.println("3. Withdraw");
@@ -23,7 +23,8 @@ public class ATM {
                     System.out.println("Enter Your Pin: ");
                     auth = sc.nextInt();
                     if(auth == pin){
-                        System.out.println("Total Balance: "+ Balance);
+                        System.out.println("Available Balance: "+ Balance);
+                        break;
                     }
                     else{
                         System.out.println("Please enter Correct pin");
@@ -37,6 +38,8 @@ public class ATM {
                         System.out.println("Enter Amount:");
                         amount = sc.nextInt();
                         Balance = Balance + amount;
+                        System.out.println("Successfully Deposit: "+ amount);
+                        break;
                     }
                     else{
                         System.out.println("Please Enter correct pin");
@@ -52,6 +55,7 @@ public class ATM {
                         Balance = Balance - amount;
                         System.out.println("Withdraw is Successfull");
                         System.out.println("Remaining Balance: "+ Balance);
+                        break;
                     }
                     else{
                         System.out.println("Please Enter correct pin");
