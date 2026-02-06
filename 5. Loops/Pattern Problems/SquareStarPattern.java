@@ -22,7 +22,7 @@ public class SquareStarPattern {
 }
 
 
-/*
+
 public class SquareStarPattern {
     public static void main(String[] args) {
         
@@ -35,7 +35,9 @@ public class SquareStarPattern {
         }
         
     }
-}*/
+}
+
+
 
 // Another Approach
 
