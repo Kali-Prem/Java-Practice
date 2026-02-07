@@ -7,6 +7,8 @@ public class Calculator {
         int choice;
 
         do { 
+            System.out.println();
+            System.out.println();
             System.out.println("Calculator - Menu");
             System.out.println("1 for addition");
             System.out.println("2 for subtraction");
