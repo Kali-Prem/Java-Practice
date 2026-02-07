@@ -9,6 +9,8 @@ public class ATM {
         int auth;
 
         do { 
+            System.out.println();
+            System.out.println();
             System.out.println("============ATM Menu============");
             System.out.println("1. Balance inquiry");
             System.out.println("2. Deposit");
