@@ -5,6 +5,7 @@ class pattern1 {
         int n = 5;
         System.out.println(fibbonaci(n));
         System.out.println(tribbonaci(n));
+        System.out.print(prime(n));
 
     }
 
@@ -47,11 +48,14 @@ class pattern1 {
             if (n % i == 0) {
                 count++;
             }
+            
         }
-        if(count == 2) {
-            return true;
-        } else {
+        if (count == 2) {
+                return true;
+            }
+        else{
             return false;
-        }
+            }
+        
     }
 }
