@@ -1,3 +1,4 @@
+//=======================Harshad Number Check Using Functions==============
 import java.util.*;
 public class HarshadNo {
     public static void main(String[] args) {
