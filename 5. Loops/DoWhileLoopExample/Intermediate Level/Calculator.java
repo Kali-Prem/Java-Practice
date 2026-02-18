@@ -24,6 +24,7 @@ public class Calculator {
                 int a = sc.nextInt();
                 System.out.println("Enter your second number: ");
                 int b = sc.nextInt();
+                System.out.println();
 
                 switch(choice){
                     case 1 -> System.out.println("Addition: " +(a+b));
