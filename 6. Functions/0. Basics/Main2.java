@@ -12,7 +12,7 @@ public class Main2 {
         int b = sc.nextInt();
         ReturnMulti(a, b);
         ReturnSub(a, b);  //yahan pr pehle returnsub call hoga aur uss time pr input diya jayega esko a and b
-        System.out.println(ReturnSub(a, b));
+        System.out.println(ReturnSub(a, b));  // Returnsub se value aane pr usko print krega
     }
     public static void Welcome(){             //No return and No parameter case
         System.out.println("It's Kali Bro");
