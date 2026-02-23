@@ -1,6 +1,6 @@
 /*
 
-Variables ko private rakhte hain aur getters/setters ke through access dete hain.
+Encapsulation mein Variables ko private rakhte hain aur getters/setters ke through access dete hain.
 
 🔹 Encapsulation Ka Main Logic
 
