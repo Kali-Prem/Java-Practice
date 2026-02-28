@@ -1,6 +1,7 @@
 //===========================PolyMorphism=========================
 /*
 Polymorphism : - Naam ek aur kaam anek
+Polymorphism generally Resolve Error 
 
 
 Polymorphism generally Resolve Error
