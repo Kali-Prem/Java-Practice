@@ -12,6 +12,7 @@ Encapsulation me 3 important cheeze hoti hain:
            
            Public setter method banana (value set/change karne ke liye)
 
+Note:- First write all setter then write all getter 
 
 class Student {
     String name;
